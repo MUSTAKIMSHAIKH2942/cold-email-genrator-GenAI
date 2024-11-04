@@ -37,10 +37,8 @@ Project Structure
 ![Directory Structure Pic](https://github.com/MUSTAKIMSHAIKH2942/cold-email-genrator-GenAI/blob/main/project-genai-cold-email-generator/imgs/file_directory.png)
 
 
-
-
-Usage
-Run the Flask Application:
+## Usage
+ Run the Flask Application:
 
 python app.py
 Access the Web App: Open your browser and go to http://127.0.0.1:5000.
@@ -53,15 +51,15 @@ API Key Setup
 Ensure that your API key for the language model (e.g., GROQ) is stored in the .env file. This will enable the app to connect to the language model for job extraction and email generation.
 
 Example .env File
-plaintext
-Copy code
+
 GROQ_API_KEY=your_groq_api_key_here
+
 Troubleshooting
 Missing File Errors: Ensure my_portfolio.csv is placed in the correct folder (app/resource/).
 API Errors: Double-check your API key in the .env file. Confirm that your key is active and has the necessary permissions.
+
 Contributing
 Feel free to submit pull requests or open issues to improve this project.
-
 
 ## Set-up
 1. To get started we first need to get an API_KEY from here: https://console.groq.com/keys. Inside `app/.env` update the value of `GROQ_API_KEY` with the API_KEY you created. 
