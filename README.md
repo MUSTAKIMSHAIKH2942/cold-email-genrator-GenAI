@@ -19,7 +19,7 @@ pip (Python package installer)
 ## Installation
 
 Clone the Repository:
-git clone https://github.com/Mustakimshaikh2942/cold-mail-generator.git
+git clone https://github.com/MUSTAKIMSHAIKH2942/cold-email-genrator-GenAI.git
 cd cold-mail-generator
 
 ## Install the Required Packages:
